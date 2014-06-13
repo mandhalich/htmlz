@@ -1,0 +1,115 @@
+body{
+	width: 840px;
+	margin-left: 100px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+article h2{
+	font-size: 30px;	
+	letter-spacing: -1px;
+	line-height: 40px;
+	margin-top: -5px;
+	margin-bottom: -3px;
+}
+
+.post-category{	
+	font-size: 10px;
+	font-weight: bold;	
+	color: #0d7963;	
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.post-category:hover{
+	color: #00443A;
+}
+
+.post-meta{
+	font-size: 12px;	
+	font-family: helvetica, arial;
+	color: #8E8E8E;		
+}
+
+.post-meta li a{
+	text-decoration: none;
+	color: #8E8E8E;
+}
+
+.post-meta li a:hover{
+	color: #2A3744;
+}
+
+.post-meta li:last-child{
+	color: #8FA6B3;
+}
+
+.post-img {
+	width: 160px;
+	height: 115px;
+	overflow: hidden;		
+}
+
+.img-crop{
+	border:1px solid #D3D3D3;
+	position: relative;
+	width: 158px;
+	height: 158px;
+	margin: -25px 0px;
+}
+
+
+
+.preview{
+	float: right;
+	width: 650px;		
+}
+
+.meta{
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.meta li{
+	display: inline;
+}
+
+
+.meta li:last-child:before{
+	content: '.';
+	font-weight: bold;
+	padding: 0px 10px;
+}
+
+article .post-img{
+	float: left;
+	margin-right: 25px;
+	display: inline;
+}
+
+.body{
+	font-size: 14px;
+	line-height: 22.4px;
+	font-family: "Helvetica Neue", Arial, sans-serif;	
+}
+
+.body p{
+	margin-top: 0;
+}
+
+.readmore{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: helvetica, arial;
+	color: #136fd2;	
+}
+
+.readmore:hover{
+	color: #0f56a3;
+}
+
+footer{
+	padding-top: 25px;
+	border-bottom: solid 1px #e4e4e4;
+	clear: both;
+}
